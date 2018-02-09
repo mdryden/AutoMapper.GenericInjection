@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>mdryden.AutoMapper.GenericInjection</AssemblyName>
+    <RootNamespace>mdryden.AutoMapper.GenericInjection</RootNamespace>
+    <Authors>Michael Dryden</Authors>
+    <Company>Michael Dryden</Company>
+    <Description>A generic interface wrapper for AutoMapper's IMapper interface, to make mapping dependencies more explicit</Description>
+    <Copyright>Michael Dryden</Copyright>
+    <PackageProjectUrl>https://github.com/pudds/AutoMapper.GenericInjection</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/pudds/AutoMapper.GenericInjection</RepositoryUrl>
+    <PackageReleaseNotes>Initial commit</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+  </ItemGroup>
 
 </Project>
